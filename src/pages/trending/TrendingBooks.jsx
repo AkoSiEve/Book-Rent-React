@@ -1,6 +1,6 @@
 import React from 'react'
-import { getAllBooks } from '../data/books'
-import BookCard from './books/BookCard'
+import { getAllBooks } from '../../data/books'
+import BookCard from '../books/BookCard'
 
 const TrendingBooks = () => {
     const books = getAllBooks()

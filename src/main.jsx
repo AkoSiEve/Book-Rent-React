@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import App from './App';
 import Home from './pages/Home';
-import TrendingBooks from './pages/TrendingBooks';
+import TrendingBooks from './pages/trending/TrendingBooks';
 import NewRealease from './pages/new-realease/NewRealease';
-import UpcomingBooks from './pages/UpcomingBooks';
-import FavoritesBooks from './pages/FavoritesBooks';
+import UpcomingBooks from './pages/upcoming/UpcomingBooks';
+import FavoritesBooks from './pages/favorite/FavoritesBooks';
 
 const router = createBrowserRouter([
   {

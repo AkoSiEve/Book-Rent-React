@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { BookContext } from '../context'
+import { BookContext } from '../../context'
 import { MdDeleteOutline } from 'react-icons/md'
 
 const FavoritesBooks = () => {
