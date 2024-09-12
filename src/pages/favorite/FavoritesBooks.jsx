@@ -4,7 +4,6 @@ import { MdDeleteOutline } from 'react-icons/md'
 
 const FavoritesBooks = () => {
     const {state,dispatch} = useContext(BookContext)
-    console.log(state)
 
     function handleBookmarkToggle(event,book){
         event.stopPropagation();
